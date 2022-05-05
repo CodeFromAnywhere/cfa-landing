@@ -61,7 +61,7 @@ const Home: NextPage = () => {
               borderRadius: 10,
             }}
           >
-            Livestream
+            Livestream & Videos
           </button>
         </a>
       </main>
