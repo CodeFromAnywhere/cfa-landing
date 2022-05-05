@@ -21,7 +21,7 @@ const Home: NextPage = () => {
         <iframe
           allow="camera; microphone; fullscreen; display-capture; autoplay"
           src="https://meet.jit.si/codefromanywhere"
-          style={{ width: "100%", height: "100%", border: 0 }}
+          style={{ width: "100%", height: "60vh", border: 0 }}
         ></iframe>
 
         <a href="https://meet.jit.si/codefromanywhere">
@@ -39,6 +39,19 @@ const Home: NextPage = () => {
             }}
           >
             Hang out
+          </button>
+        </a>
+
+        <a href="https://sensible.to">
+          <button
+            style={{
+              backgroundColor: "lightgreen",
+              padding: 15,
+              width: 300,
+              borderRadius: 10,
+            }}
+          >
+            Sensible
           </button>
         </a>
       </main>
