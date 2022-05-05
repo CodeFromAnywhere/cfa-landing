@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           software.
         </h1>
         <a href="https://meet.jit.si/codefromanywhere">
-        <button style={{backgroundColor:"blue",padding:10,width:300}}>
+        <button style={{backgroundColor:"lightblue",padding:15,width:300,borderRadius:10}}>
           Hang out
         </button></a>
       </main>
