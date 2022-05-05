@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 const Home: NextPage = () => {
@@ -18,6 +17,10 @@ const Home: NextPage = () => {
           elegant framework that lets others Develop and Market monetised
           software.
         </h1>
+        <a href="https://meet.jit.si/codefromanywhere">
+        <button style={{backgroundColor:"blue",padding:10,width:300}}>
+          Hang out
+        </button></a>
       </main>
     </div>
   );
