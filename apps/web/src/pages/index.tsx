@@ -17,17 +17,18 @@ const Home: NextPage = () => {
           elegant framework that lets others Develop and Market monetised
           software.
         </h1>
+
+        <iframe
+          allow="camera; microphone; fullscreen; display-capture; autoplay"
+          src="https://meet.jit.si/codefromanywhere"
+          style={{ width: "100%", height: "100%", border: 0 }}
+        ></iframe>
+
         <a href="https://meet.jit.si/codefromanywhere">
           {/* lets add an input field on top where you can fill in your name,
            and when clicking to go to jitsi, it also calls a little endpoint 
            that gives anyone with the cfa app that wants to be notified a push 
            notification "{name} joined the hangout!" ^^ */}
-
-          <iframe
-            allow="camera; microphone; fullscreen; display-capture; autoplay"
-            src="https://meet.jit.si/codefromanywhere"
-            style="height: 100%; width: 100%; border: 0px;"
-          ></iframe>
 
           <button
             style={{
