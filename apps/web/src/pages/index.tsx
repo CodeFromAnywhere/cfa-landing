@@ -17,11 +17,7 @@ const Home: NextPage = () => {
           elegant framework that lets others Develop and Market monetised
           software.
         </h1>
-        <iframe
-          allow="camera; microphone; fullscreen; display-capture; autoplay"
-          src="https://meet.jit.si/codefromanywhere"
-          style={{ width: "100%", height: "60vh", border: 0 }}
-        ></iframe>
+
         <a href="https://meet.jit.si/codefromanywhere">
           {/* lets add an input field on top where you can fill in your name,
            and when clicking to go to jitsi, it also calls a little endpoint 
